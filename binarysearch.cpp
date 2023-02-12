@@ -7,7 +7,7 @@ int BS(int* arr, int n, int key){
 	low = 0;
 	high = n-1;
 	while(low<=high){
-		mid = (low+high) >> 1;
+		mid = (low+high)/2;
 		if (arr[mid] == key){
 			return mid;
 		}
